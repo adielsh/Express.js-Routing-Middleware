@@ -9,8 +9,6 @@ app.listen(3000, function () {
 });
 app.use('/food', food);
 
-
-
 app.get('/', function (req, res) {
   res.send('Hello World!');
 });
